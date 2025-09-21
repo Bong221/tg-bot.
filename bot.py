@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
-TOKEN = os.getenv(8205237649:AAFqS3OzxZzq1-AaXOZaEoVQmwtN8yY4Nxk)
+TOKEN = os.getenv(8205237649:)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
